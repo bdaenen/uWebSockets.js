@@ -1,0 +1,50 @@
+Index: .gitignore
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .gitignore	(date 1604315602299)
++++ .gitignore	(date 1604315602299)
+@@ -0,0 +1,2 @@
++.idea
++.DS_Store
+\ No newline at end of file
+Index: package.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- package.json	(revision b1410f2b5771bc81b5dbda73ed7520dda619ec9e)
++++ package.json	(date 1604315602271)
+@@ -1,6 +1,29 @@
+ {
+-  "name": "uWebSockets.js",
++  "name": "@bdaenen/uwebsockets",
+   "version": "18.9.0",
+   "main": "uws.js",
+-  "types": "./index.d.ts"
++  "types": "./index.d.ts",
++  "description": "Fork of uwebsockets that simply adds a package.json to the release to publish it on npm.",
++  "scripts": {
++    "test": "echo \"Error: no test specified\" && exit 1"
++  },
++  "repository": {
++    "type": "git",
++    "url": "git+https://github.com/bdaenen/uWebSockets.js.git"
++  },
++  "publishConfig": {
++    "access": "public"
++  },
++  "keywords": [
++    "websockets",
++    "uwebsockets",
++    "uws",
++    "ws"
++  ],
++  "author": "Alex Hultman",
++  "license": "Apache-2.0",
++  "bugs": {
++    "url": "https://github.com/bdaenen/uWebSockets.js/issues"
++  },
++  "homepage": "https://github.com/bdaenen/uWebSockets.js#readme"
+ }

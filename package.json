@@ -1,6 +1,29 @@
 {
-  "name": "uWebSockets.js",
+  "name": "@bdaenen/uwebsockets",
   "version": "18.9.0",
   "main": "uws.js",
-  "types": "./index.d.ts"
+  "types": "./index.d.ts",
+  "description": "Fork of uwebsockets that simply adds a package.json to the release to publish it on npm.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bdaenen/uWebSockets.js.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "websockets",
+    "uwebsockets",
+    "uws",
+    "ws"
+  ],
+  "author": "Alex Hultman",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/bdaenen/uWebSockets.js/issues"
+  },
+  "homepage": "https://github.com/bdaenen/uWebSockets.js#readme"
 }
